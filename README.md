@@ -84,14 +84,7 @@ Existing examples in the claude-context directory are sourced from MIT projects 
 
 ## Official Documentation
 
-For more details about Claude's GitHub integration [please see the official doc](https://support.anthropic.com/en/articles/10167454-using-the-github-integration). Please note:
-
-- **GitHub Integration:** Claude connects directly to GitHub to fetch repository contents, which provides comprehensive context for generating tests.
-- **Repository Sync:** Only the file names and contents from your selected branch are retrieved - commit history, pull requests, and other metadata are excluded.
-- **Access Control:** For private repositories, make sure you grant the necessary permissions. If you lose access or encounter issues, refer to the prompts or contact your GitHub organization’s administrators.
-- **Best Practices:** Start with a small subset of your codebase and regularly sync your repository to ensure Claude works with the latest version.
-
-For the complete integration details and further instructions, please consult the `claude-context/instructions.md` file.
+For more details about Claude's GitHub integration [please see the official doc](https://support.anthropic.com/en/articles/10167454-using-the-github-integration). 
 
 ---
 
