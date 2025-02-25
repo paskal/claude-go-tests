@@ -1,6 +1,6 @@
 # Claude Go Tests Template
 
-This repository serves as a template for writing robust Go tests using Claude AI. By forking this repository and connecting it to a Claude Project, you'll provide Claude with clear examples and context so it can generate tests that match your style and best practices.
+This repository serves as a template for writing robust Go tests using Claude AI. By forking this repository and connecting it to a Claude Project, you'll provide Claude with clear examples and context so it can generate tests that match your preferred style and best practices.
 
 ## Quick Start Guide
 
@@ -10,40 +10,43 @@ This repository serves as a template for writing robust Go tests using Claude AI
 
 2. **Create a Claude Project** (requires Claude Pro/Team subscription)
     - Navigate to [Claude](https://claude.ai) and sign in.
-    - Navigate to Projects in the menu on the left
-    - Click  **[Create project](https://claude.ai/projects/create)** on the top right and name it `go-tests`.
-    - Fill in the prompt with the following text:
+    - Open the **Projects** section from the menu on the left.
+    - Click **[Create Project](https://claude.ai/projects/create)** at the top right and name it `go-tests`.
+    - In the prompt field, enter:
       ```plaintext
       Project for writing tests for Go code.
       ```
-    - Click **Create Project**
+    - Click **Create Project**.
 
         ![New Project Screenshot](images/claude-project-creation.png)
 
 3. **Connect Your Fork**
-    - In your Claude project, click **Add Content** → **GitHub**.
-    ![Screenshot of adding GitHub context](images/claude-project-add-context.png)
-    - If you haven't authorized Claude for GitHub yet, click **Authorize**
+    - Inside your Claude project, click **Add Content** → **GitHub**.
 
-        ![Authorization screenshot](images/claude-github-permissions.png)
+        ![Adding GitHub Context Screenshot](images/claude-project-add-context.png)
+
+    - If you haven't authorized Claude for GitHub yet, click **Authorize**.
+
+        ![GitHub Authorization Screenshot](images/claude-github-permissions.png)
+
     - Select your forked `claude-go-tests` repository from the list.
-    - **Select only the `claude-context` directory** — this folder includes instructions and examples Claude needs.
+    - **Select only the `claude-context` directory** — this folder contains the instructions and examples that Claude requires.
 
-        ![Repository Selection Screenshot](images/claude-add-context.png)
+        [Repository Selection Screenshot](images/claude-add-context.png)
+
     - Click **Add Selected Files**.
 
-        ![Context Selection Screenshot](images/claude-project-knowledge.png)
+        [Context Selection Screenshot](images/claude-project-knowledge.png)
 
 4. **Start Writing Tests**
-    - Drag and drop your Go file into the chat on the left
-    - Use the following prompt as a starter:
-    
+    - Drag and drop your Go file into the chat on the left.
+    - Use the following prompt as a starting point:
+
         ```plaintext
         Please write tests for this Go code following the instructions in your context.
         ```
 
-        ![Chat Example Screenshot](images/claude-new-prompt.png)
-
+        [Chat Example Screenshot](images/claude-new-prompt.png)
 
 ## Repository Structure
 
@@ -53,9 +56,11 @@ claude-go-tests/
 ├── images/                    # Screenshots and documentation images
 └── claude-context/            # Instructions and examples for Claude
      ├── INSTRUCTIONS.md       # Detailed instructions for Claude
-     ├── *.go                  # Sample Go code
-     ├── *_test.go             # Example test implementation
+     ├── package/              # Example Go code files grouped by package
+        ├── *.go                  # Sample Go code files
+        ├── *_test.go             # Example test implementations
 ```
+
 ## What's Included
 
 - **Test Patterns**: Examples of common Go testing strategies such as table-driven tests, mocks, and fixtures.
@@ -78,13 +83,13 @@ Contributions are welcome! If you have suggestions for new test patterns or impr
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Existing examples in the claude-context directory are sourced from MIT projects made by @umputun and @paskal.
+Existing examples in the `claude-context` directory are sourced from MIT projects by [@umputun](https://github.com/umputun) and [@paskal](https://github.com/paskal).
 
 ---
 
 ## Official Documentation
 
-For more details about Claude's GitHub integration [please see the official doc](https://support.anthropic.com/en/articles/10167454-using-the-github-integration). 
+For more details about Claude's GitHub integration, please see the [official documentation](https://support.anthropic.com/en/articles/10167454-using-the-github-integration).
 
 ---
 
