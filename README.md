@@ -32,11 +32,11 @@ This repository serves as a template for writing robust Go tests using Claude AI
     - Select your forked `claude-project-templates` repository from the list.
     - **Select only the `claude-go-tests` directory** — this folder contains the instructions and examples that Claude requires.
 
-        [Repository Selection Screenshot](images/claude-add-context.png)
+        ![Repository Selection Screenshot](images/claude-add-context.png)
 
     - Click **Add Selected Files**.
 
-        [Context Selection Screenshot](images/claude-project-knowledge.png)
+        ![Context Selection Screenshot](images/claude-project-knowledge.png)
 
 4. **Start Writing Tests**
     - Drag and drop your Go file into the chat on the left.
@@ -46,7 +46,7 @@ This repository serves as a template for writing robust Go tests using Claude AI
         Please write tests for this Go code following the instructions in your context.
         ```
 
-        [Chat Example Screenshot](images/claude-new-prompt.png)
+        ![Chat Example Screenshot](images/claude-new-prompt.png)
 
 ## Repository Structure
 
