@@ -1,10 +1,10 @@
-# Claude Go Tests Template
+# Claude Project Templates
 
 This repository serves as a template for writing robust Go tests using Claude AI. By forking this repository and connecting it to a Claude Project, you'll provide Claude with clear examples and context so it can generate tests that match your preferred style and best practices.
 
 ## Quick Start Guide
 
-1. **[Fork](https://github.com/paskal/claude-go-tests/fork)** claude-go-tests repository repository using the link.
+1. **[Fork](https://github.com/paskal/claude-project-templates/fork)** claude-project-templates repository repository using the link.
 
     ![Fork Button Screenshot](images/github-fork-creation.png)
 
@@ -29,8 +29,8 @@ This repository serves as a template for writing robust Go tests using Claude AI
 
         ![GitHub Authorization Screenshot](images/claude-github-permissions.png)
 
-    - Select your forked `claude-go-tests` repository from the list.
-    - **Select only the `clauge-go-tests` directory** — this folder contains the instructions and examples that Claude requires.
+    - Select your forked `claude-project-templates` repository from the list.
+    - **Select only the `claude-go-tests` directory** — this folder contains the instructions and examples that Claude requires.
 
         [Repository Selection Screenshot](images/claude-add-context.png)
 
@@ -51,10 +51,10 @@ This repository serves as a template for writing robust Go tests using Claude AI
 ## Repository Structure
 
 ```plaintext
-claude-go-tests/
+claude-project-templates/
 ├── README.md                  # This file
 ├── images/                    # Screenshots and documentation images
-└── clauge-go-tests/            # Instructions and examples for Claude
+└── claude-go-tests/            # Instructions and examples for Claude
      ├── INSTRUCTIONS.md       # Detailed instructions for Claude
      ├── package/              # Example Go code files grouped by package
         ├── *.go                  # Sample Go code files
@@ -70,7 +70,7 @@ claude-go-tests/
 
 ## Why Use This Template?
 
-1. **Consistent Testing**: Claude learns your preferred testing style from the examples in `clauge-go-tests`.
+1. **Consistent Testing**: Claude learns your preferred testing style from the examples in `claude-go-tests`.
 2. **Time Efficiency**: Quickly receive well-structured test suggestions that you can review and adapt.
 3. **Best Practices**: Leverage established Go testing patterns and conventions.
 4. **Learning Resource**: Ideal for teams looking to standardize and improve their testing approach.
@@ -85,7 +85,7 @@ Feel free to add new directories for other usecases than the ones already presen
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Existing examples in the `clauge-go-tests` directory are sourced from MIT projects by [@umputun](https://github.com/umputun) and [@paskal](https://github.com/paskal).
+Existing examples in the `claude-go-tests` directory are sourced from MIT projects by [@umputun](https://github.com/umputun) and [@paskal](https://github.com/paskal).
 
 ---
 
