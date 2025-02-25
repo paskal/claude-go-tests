@@ -30,7 +30,7 @@ This repository serves as a template for writing robust Go tests using Claude AI
         ![GitHub Authorization Screenshot](images/claude-github-permissions.png)
 
     - Select your forked `claude-go-tests` repository from the list.
-    - **Select only the `claude-context` directory** — this folder contains the instructions and examples that Claude requires.
+    - **Select only the `clauge-go-tests` directory** — this folder contains the instructions and examples that Claude requires.
 
         [Repository Selection Screenshot](images/claude-add-context.png)
 
@@ -54,7 +54,7 @@ This repository serves as a template for writing robust Go tests using Claude AI
 claude-go-tests/
 ├── README.md                  # This file
 ├── images/                    # Screenshots and documentation images
-└── claude-context/            # Instructions and examples for Claude
+└── clauge-go-tests/            # Instructions and examples for Claude
      ├── INSTRUCTIONS.md       # Detailed instructions for Claude
      ├── package/              # Example Go code files grouped by package
         ├── *.go                  # Sample Go code files
@@ -70,7 +70,7 @@ claude-go-tests/
 
 ## Why Use This Template?
 
-1. **Consistent Testing**: Claude learns your preferred testing style from the examples in `claude-context`.
+1. **Consistent Testing**: Claude learns your preferred testing style from the examples in `clauge-go-tests`.
 2. **Time Efficiency**: Quickly receive well-structured test suggestions that you can review and adapt.
 3. **Best Practices**: Leverage established Go testing patterns and conventions.
 4. **Learning Resource**: Ideal for teams looking to standardize and improve their testing approach.
@@ -79,11 +79,13 @@ claude-go-tests/
 
 Contributions are welcome! If you have suggestions for new test patterns or improvements to the examples, please submit a pull request.
 
+Feel free to add new directories for other usecases than the ones already present.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Existing examples in the `claude-context` directory are sourced from MIT projects by [@umputun](https://github.com/umputun) and [@paskal](https://github.com/paskal).
+Existing examples in the `clauge-go-tests` directory are sourced from MIT projects by [@umputun](https://github.com/umputun) and [@paskal](https://github.com/paskal).
 
 ---
 
